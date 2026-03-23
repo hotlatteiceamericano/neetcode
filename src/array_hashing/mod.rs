@@ -1,6 +1,8 @@
 pub mod contain_duplicates;
 pub mod encode_decode;
 pub mod group_anagram;
+pub mod product_of_array_except_self;
 pub mod top_k_frequent_elements;
 pub mod two_sum;
 pub mod valid_anagram;
+pub mod valid_sudoku;
