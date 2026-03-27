@@ -1,5 +1,8 @@
 pub mod best_time_to_buy_and_sell_stock;
 pub mod container_with_most_water;
+pub mod longest_repeating_characters_replacement;
+pub mod longest_substring_without_repeating_characters;
+pub mod permutation_in_string;
 pub mod three_sum;
 pub mod trapping_rain_water;
 pub mod two_integers_sum;
