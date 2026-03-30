@@ -1,15 +1,19 @@
 # CLAUDE.md
 
-## Architecture
+This repo is my playground to practive the algorithm interview question.
 
-This is a Rust workspace (edition 2024, no external dependencies) for solving [NeetCode](https://neetcode.io) algorithm problems.
+My goal is to showcase my knowledge on Rust programming, also the clarity of my algorithm solution.
 
-**Structure:** Each NeetCode problem category maps to a module under `src/`. Each problem is its own submodule file, declared in the category's `mod.rs`.
+I would like to know how can I improve my Rust code to be more rust idiomatic, and readable to readers.
 
-**Pattern:** Problem solutions are plain functions. Tests are written inline using `#[cfg(test)]` within the same file as the solution.
+Please do not implement the code directly. Instead, please list out the improvement in one by one.
 
-**Adding a problem:**
-1. Create `src/<category>/<problem>.rs` with the solution function and `#[cfg(test)]` tests.
-2. Add `pub mod <problem>;` to `src/<category>/mod.rs`.
-3. If the category is new, also create `src/<category>/mod.rs` and add `pub mod <category>;` to `src/main.rs`.
+Please first summary those imrpovement, display the imrpoved code after. And comment above those lines where you make improvements.
 
+Last but not least, highlight the key changes you suggest.
+
+In the diplaying of the improved code, please disgard my code comment.
+
+Please ignore the improvement regarding leaving comments in the code. Those are my thought process and I would like to keep them.
+
+Please ignore the improvement regarding function signature, as those are provided by neetcode.com.
